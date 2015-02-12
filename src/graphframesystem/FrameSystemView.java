@@ -26,15 +26,15 @@ public class FrameSystemView extends Frame implements ActionListener,WindowListe
 		// TODO Auto-generated constructor stub
 	  addWindowListener(this);
 	  setTitle("FrameSystem");
-     setLayout(new FlowLayout(FlowLayout.CENTER));
+	  setLayout(new FlowLayout(FlowLayout.CENTER));
 
     
-     add(button1);
-     add(text1);
-    add(button2);
+	  add(button1);
+	  add(text1);
+	  add(button2);
         
-     button1.addActionListener(this);
-     button2.addActionListener(this);
+	  button1.addActionListener(this);
+	  button2.addActionListener(this);
 	}
 
 	@Override
